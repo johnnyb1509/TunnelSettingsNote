@@ -85,8 +85,10 @@
 - Find ```<host_IP>``` by using ```ipconfig``` in PowerShell or Windows Terminal
 - From Client Bash terminal, using
     ```
-    ssh <server_name>@<host_IP>
+    ssh <server_name>@<host_IP> -p <host_port_number>
     ```
+
+    - Define ```-p <host_port_number>``` to connect exactly to the allowed open port above.
 - Password is the sudo password of host WSL
 
 
