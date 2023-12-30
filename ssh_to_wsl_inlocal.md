@@ -7,7 +7,7 @@
     -  Part *"Install OpenSSH for Windows"*
 - Connect to OpenSSH Server Window
     - Part *"Connect to OpenSSH Server"*
-    - Check detail connect on Windows/WSL, using the right terminal
+    - Check detail of the domain/username on host machine, using PowerShell
         ```
         whoami
         > shanserver1\sonnm
@@ -17,7 +17,7 @@
         ssh domain\username@servername
 
         E.g:
-        ssh shanserver1\sonnm@<IP of the Machine>
+        ssh shanserver1\sonnm@<IP of the host Machine>
         ```
     
 **Step 2: On Bash Terminal - WSL**
