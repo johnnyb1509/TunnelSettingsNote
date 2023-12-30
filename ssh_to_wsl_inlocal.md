@@ -20,7 +20,6 @@
         ssh shanserver1\sonnm@<IP of the Machine>
         ```
     
-- If 
 **Step 2: On Bash Terminal - WSL**
 
 - Install OpenSSH in WSL Ubuntu.
